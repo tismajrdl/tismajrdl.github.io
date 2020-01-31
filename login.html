@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>V6</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Description de votre projet pour Google">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="img/favicon.png" rel="icon" type="image/png">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+  </head>
+  <body>
+    <style media="screen">
+      .loader{
+        position: absolute;
+        z-index: 99999999;
+        background-color: #727272;
+      }
+      .moon{
+        position: absolute;
+        height: 50px;
+        width:50px;
+        background-color: white;
+        display: block;
+        border-radius: 50px;
+        top:calc(50vh - 25px);
+        left:calc(50vw - 25px);
+      }
+      .blackmoon{
+        position: absolute;
+        height: 52px;
+        width:52px;
+        background-color: #727272;
+        display: block;
+        border-radius: 50px;
+        top:calc(50vh - 26px);
+        left:calc(50vw - 26px);
+        animation-name: moon;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-in-out;
+      }
+      @keyframes moon {
+        from{}
+        to{transform: translate(55px, -55px);}
+      }
+
+    </style>
+    <div class="loader">
+      <div class="moon"></div>
+      <div class="blackmoon"></div>
+    </div>
+  </body>
+</html>
