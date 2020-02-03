@@ -174,7 +174,7 @@ p{font-weight: 300;}
   height: 100vh;
   display: block;
   position: relative;
-  background-image: url(img/b1.jpg);
+  background-image: url(../img/b1.jpg);
   background-position:center;
   background-attachment: fixed;
   background-size: cover;
