@@ -272,28 +272,28 @@ p{font-weight: 300;}
   display: block;
 }
 #portfolio{
-  background-image: url(../img/thumbnail_pf.jpg);
+  background-image: url(img/thumbnail_pf.jpg);
 }
 #convives{
-  background-image: url(../img/thumbnail_convives.png);
+  background-image: url(img/thumbnail_convives.png);
 }
 #secretairebdx{
-  background-image: url(../img/thumbnail_secretairebdx.png);
+  background-image: url(img/thumbnail_secretairebdx.png);
 }
 #frenchpoupon{
-  background-image: url(../img/thumbnail_frenchpoupon.png);
+  background-image: url(img/thumbnail_frenchpoupon.png);
 }
 #iceberg{
-  background-image: url(../img/thumbnail_iceberg.png);
+  background-image: url(img/thumbnail_iceberg.png);
 }
 #mgenet{
-  background-image: url(../img/thumbnail_mgenet.png);
+  background-image: url(img/thumbnail_mgenet.png);
 }
 #qucit{
-  background-image: url(../img/thumbnail_qucit.png);
+  background-image: url(img/thumbnail_qucit.png);
 }
 #jardel{
-  background-image: url(../img/thumbnail_jardel.png);
+  background-image: url(img/thumbnail_jardel.png);
 }
 
 .projet-content{
